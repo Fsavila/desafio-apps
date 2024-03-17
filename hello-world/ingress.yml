@@ -4,6 +4,7 @@ metadata:
   name: hello-world-ingress
   namespace: hello-world
 spec:
+  ingressClassName: nginx
   rules:
   - host: hello-world.avilait.com.br
     http:
