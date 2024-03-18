@@ -6,7 +6,7 @@ metadata:
 spec:
   ingressClassName: nginx
   rules:
-  - host: hello-world.avilait.com.br
+  - host: hello-world.felipeavila.com.br
     http:
       paths:
       - path: /
